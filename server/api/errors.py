@@ -1,0 +1,16 @@
+SERVER_ERROR_500 = ({"message": "An error occured."}, 500)
+NOT_FOUND_404 = ({"message": "Resource could not be found."}, 404)
+NO_INPUT_400 = ({"message": "No input data provided."}, 400)
+INVALID_INPUT_422 = ({"message": "Invalid input."}, 422)
+ALREADY_EXIST = ({"message": "Already exists."}, 409)
+
+DOES_NOT_EXIST = ({"message": "Does not exists."}, 409)
+NOT_ADMIN = ({"message": "Admin permission denied."}, 999)
+HEADER_NOT_FOUND = ({"message": "Header does not exists."}, 999)
+
+RSV_EXPIRED = ({"message": "Reservation has expired."}, 888)
+RSV_NOT_FOUND = ({"message": "Reservation could not be found."}, 889)
+RSV_LIST_IS_EMPTY = ({"message": "Reservation list is empty."}, 890)
+RSV_ALREADY_MADE = ({"message": "Reservation have already made."}, 891)
+RSV_NOT_MADE = ({"message": "Reservation have not been made."}, 892)
+RSV_REACH_LIMIT = ({"message": "Reservation reached number limit."}, 893)
