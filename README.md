@@ -1,4 +1,4 @@
 # ReserveMe
-The best reservation system for equipment maintenance (will be
 
+A reservation system for devices maintenance (for learning front-end and back-end)
 
