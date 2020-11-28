@@ -6,11 +6,13 @@ from api.conf.config import SQLALCHEMY_DATABASE_URI
 from api.routes import generate_routes
 from api.database.database import db
 from api.database.db_init import create_admin_user
-
+from flask_cors import CORS
 
 def create_app():
 
     app = Flask(__name__)
+    
+    CORS(app, resources={r"/*": {"origins": "*"}})
 
     app.config['DEBUG'] = True
 
