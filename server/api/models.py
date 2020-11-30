@@ -7,6 +7,7 @@ from api.conf.auth import auth
 from api.database.database import db
 from sqlalchemy.dialects.postgresql import UUID
 import api.errors as error
+import os
 
 
 class User(db.Model):
