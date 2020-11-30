@@ -1,4 +1,3 @@
 # ReserveMe
-
-A reservation system for devices maintenance (for learning front-end and back-end)
-
+A reservation system for devices maintenance 
+(This is a learning project of front-end and back-end)
