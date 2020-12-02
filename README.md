@@ -1,4 +1,3 @@
 # ReserveMe
-The best reservation system for equipment maintenance (will be
-
-make a test change
+A reservation system for devices maintenance 
+(This is a learning project of front-end and back-end)
